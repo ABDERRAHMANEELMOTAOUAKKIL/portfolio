@@ -125,7 +125,7 @@ const Contact = () => {
                     <dd className="text-xs text-zinc-500 dark:text-zinc-400">Junior Full-stack developer</dd>
                     <dt className="sr-only">Date</dt>
                     <dd className="ml-auto text-xs text-zinc-400 dark:text-zinc-500" aria-label="2014 until 2019">
-                      <time dateTime="2014">Feb-2024</time> <span aria-hidden="true">—</span> <time dateTime="2019">current</time>
+                      <time dateTime="2014">Feb-2024</time> <span aria-hidden="true">—</span> <time dateTime="2019">Feb-2025</time>
                     </dd>
                   </dl>
                 </li>
