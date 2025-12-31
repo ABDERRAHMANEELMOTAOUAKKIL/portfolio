@@ -2,9 +2,9 @@ import React from 'react';
 
 const ProjectCard = ({ name, description, link, imgSrc, tools = [] }) => {
   return (
-    <li className="group relative flex flex-col items-start">
+    <li className="group relative flex flex-col items-start cursor-pointer">
     <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-zinc-900/5 dark:bg-zinc-800">
-      <img alt={name} className="h-8 w-8" src={imgSrc} />
+      <img alt={name} className="h-8 w-9" src={imgSrc} />
     </div>
     <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"></div>

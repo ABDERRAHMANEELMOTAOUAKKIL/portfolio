@@ -13,10 +13,10 @@ const Hero = () => {
             Full-stack developer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I'm Elmotaouakkil Abderrahmane, a Full-stack developer based in Casablanca City. With a strong focus on creating dynamic and scalable web applications, I specialize in Django and Wagtail for robust backend solutions and React for building interactive frontend experiences. My expertise lies in crafting efficient, user-friendly digital solutions that meet modern web standards.          </p>
+          I’m Elmotaouakkil Abderrahmane, a Full-Stack Developer based in Casablanca. I specialize in building dynamic, scalable, and high-performance web and mobile applications. My core expertise includes Django and Wagtail for robust backend solutions, React for interactive web interfaces, and React Native for cross-platform mobile development. I focus on delivering efficient, user-friendly digital products that align with modern web and mobile standards.</p>
           <div className="mt-6 flex gap-6">
      
-            <a className="group -m-1 p-1" aria-label="Follow on GitHub" href="https://github.com/AbderrhamaneElmotaouakkil"  target="_blank" rel="noreferrer" >
+            <a className="group -m-1 p-1" aria-label="Follow on GitHub" href="https://github.com/ABDERRAHMANEELMOTAOUAKKIL"  target="_blank" rel="noreferrer" >
               <svg
                 viewBox="0 0 24 24"
                 aria-hidden="true"

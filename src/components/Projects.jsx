@@ -15,11 +15,11 @@ const Projects = () => {
                 Things I’ve made trying to put my dent in the universe.
               </h1>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-              I’ve worked on many projects as a developer for <strong>Yanvision</strong> , some of which I developed entirely from scratch using Wagtail CMS and Django, while others I contributed significantly to as a full-stack developer. These are the ones I’m most proud of, showcasing my ability to create and enhance complex web applications.
+              I’ve worked on many projects as a Software Developer , some of which I developed entirely from scratch using Wagtail CMS and Django, while others I contributed significantly to as a full-stack developer. These are the ones I’m most proud of, showcasing my ability to create and enhance complex web and Mobile applications.
               </p>
             </header>
             <div className="mt-16 sm:mt-20">
-              <ul role="list" className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
+              <ul className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
                 {projects.map((project, index) => (
                   <ProjectCard key={index} {...project} />
                 ))}
